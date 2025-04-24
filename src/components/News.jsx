@@ -41,11 +41,11 @@ const News = () => {
   return (
     <div className='news-app'>
       <div className="news-header">
-        <hi className="logo">News App</hi>
+        <h1 className="logo">News App</h1>
       </div>
       <div className="news-content">
         <nav className="navbar">
-          <hi className="nav-heading">Categories</hi>
+          <h1 className="nav-heading">Categories</h1>
           <div className="categories">
             {categories.map((category) => (
               <a href='' onClick={(e)=>handleCategoryClick(e, category)} className='nav-link' key={category}>
